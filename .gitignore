@@ -1,0 +1,27 @@
+# Raw sequence inputs (regenerable from data/processed/*.csv)
+*.fa
+*.fasta
+
+# ESM embeddings -- large, regenerable via extraction pipeline (see README)
+data/embeddings/
+*_embeddings/
+single_embeddings/
+double_embeddings/
+*.pt
+
+# Trained model artifacts (host externally if large; see README)
+saved_models/
+*.pkl
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+
+# Environment
+.env
+.venv/
+
+# OS
+.DS_Store

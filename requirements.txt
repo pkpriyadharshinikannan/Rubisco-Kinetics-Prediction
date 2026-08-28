@@ -1,0 +1,10 @@
+# Core
+pandas
+numpy
+scipy
+scikit-learn
+
+# Gaussian Process models
+gpflow
+tensorflow
+
